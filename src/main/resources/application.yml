@@ -9,10 +9,6 @@ spring:
       server:
         git:
           uri: ${REPOSITORY_URL}
-          username: ${GITHUB_USER}
-          password: ${GITHUB_PASSWORD}
-          default-label: ${GITHUB_BRANCH}
-          clone-on-start: true
           search-paths:
             - '{application}'
 
